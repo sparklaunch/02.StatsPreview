@@ -30,4 +30,17 @@
     font-family: "Lexend Deca", sans-serif;
     font-size: 12px;
   }
+  @media screen and (max-width: 1440px) {
+    #figures {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #figures > div {
+      margin-bottom: 30px;
+    }
+    #figures > div > p {
+      text-align: center;
+    }
+  }
 </style>

@@ -23,4 +23,9 @@
     height: 100%;
     background-color: rgb(13, 14, 26);
   }
+  @media screen and (max-width: 1440px) {
+    #app {
+      background-color: black;
+    }
+  }
 </style>

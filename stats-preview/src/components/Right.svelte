@@ -10,4 +10,16 @@
     height: 100%;
     filter: sepia(100%) hue-rotate(230deg) saturate(500%) brightness(0.75);
   }
+  @media screen and (max-width: 1440px) {
+    #right {
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      overflow: hidden;
+    }
+    #right > img {
+      height: auto;
+      width: 100%;
+    }
+  }
 </style>

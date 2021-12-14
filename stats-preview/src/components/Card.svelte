@@ -21,4 +21,15 @@
     overflow: hidden;
     width: 800px;
   }
+  @media screen and (max-width: 1440px) {
+    #card {
+      flex-direction: column-reverse;
+      width: 400px;
+      padding: 100px 30px;
+      top: 0;
+      transform: translate(-50%, 0);
+      position: relative;
+      background-color: rgb(13, 14, 26);
+    }
+  }
 </style>

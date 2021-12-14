@@ -26,4 +26,12 @@
   .emphasized {
     color: rgb(162, 82, 218);
   }
+  @media screen and (max-width: 1440px) {
+    #title > h1 {
+      text-align: center;
+    }
+    #title > p {
+      text-align: center;
+    }
+  }
 </style>
