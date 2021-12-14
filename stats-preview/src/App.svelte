@@ -20,12 +20,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background-color: rgb(13, 14, 26);
   }
   @media screen and (max-width: 1440px) {
     #app {
       background-color: black;
+      position: relative;
     }
   }
 </style>
