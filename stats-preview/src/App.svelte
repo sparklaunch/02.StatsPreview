@@ -1,3 +1,7 @@
+<script>
+  import Card from "./components/Card.svelte";
+</script>
+
 <svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -7,7 +11,7 @@
   />
 </svelte:head>
 <div id="app">
-  <p>Hello World!!</p>
+  <Card />
 </div>
 
 <style>
