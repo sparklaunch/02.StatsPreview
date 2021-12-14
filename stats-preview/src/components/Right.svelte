@@ -1,5 +1,15 @@
+<script>
+  $: innerWidth = 0;
+</script>
+
+<svelte:window bind:innerWidth />
 <div id="right">
-  <img src="/assets/image-header-desktop.jpg" alt="Header" />
+  <img
+    src={innerWidth > 1440
+      ? "/assets/image-header-desktop.jpg"
+      : "/assets/image-header-mobile.jpg"}
+    alt="Header"
+  />
 </div>
 
 <style>
