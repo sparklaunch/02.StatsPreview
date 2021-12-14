@@ -7,8 +7,7 @@
     width: 50%;
   }
   #right > img {
-    width: 100%;
-    height: auto;
+    height: 100%;
     filter: sepia(100%) hue-rotate(230deg) saturate(500%) brightness(0.75);
   }
 </style>

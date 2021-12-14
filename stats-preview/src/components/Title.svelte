@@ -9,6 +9,9 @@
 </div>
 
 <style>
+  #title {
+    margin-bottom: 50px;
+  }
   #title > h1 {
     font-family: "Inter", sans-serif;
     color: white;
